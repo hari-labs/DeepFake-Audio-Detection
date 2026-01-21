@@ -28,7 +28,7 @@ A Flask-based web app that allows users to record or upload an audio file and cl
 
 ```bash
 # Clone the repository
-git clone https://github.com/HariharanAI183/DeepFake-Audio-Detection.git
+git clone https://github.com/hari-labs/DeepFake-Audio-Detection.git
 cd DeepFake-Audio-Detection
 
 # Create and activate virtual environment
