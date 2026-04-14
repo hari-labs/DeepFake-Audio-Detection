@@ -12,7 +12,7 @@ A Flask-based web app that allows users to record or upload an audio file and cl
 -  MFCC-based audio preprocessing
 -  TensorFlow-based model for inference
 
----
+------------
 
 ##  Tech Stack
 
@@ -58,3 +58,5 @@ python app.py
 └── README.md                   # This file
 
 ```
+
+
