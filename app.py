@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload
 ALLOWED_EXT = {'wav', 'mp3', 'ogg', 'm4a'}
-AudioSegment.converter = os.path.join(app.root_path, 'ffmpeg', 'bin', 'ffmpeg.exe')
+AudioSegment.converter = "ffmpeg"
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXT
